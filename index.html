@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <title>Oltás</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+
 </head>
 <body>
+    <!--Navbar Section-->
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="/" id="navbar__logo">NEXT</a>
+            <a href="/" id="navbar__logo"><i class="fas fa-viruses"></i>COVID-19</a>
             <div class="navbar__toogle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -17,20 +21,123 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Fooldal</a>
+                    <a href="/" class="navbar__links">Főoldal</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/tech.html" class="navbar__links">Tech</a>
+                    <a href="/" class="navbar__links">Oltások</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="" class="navbar__links">Termékek</a>
+                    <a href="" class="navbar__links">Statisztika</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="/" class="button">Regisztráció</a>
+                    <a href="/register.html" class="button">Regisztráció</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <!--Hero section-->
+    <div class="main"> 
+        <div class="main__container"> 
+            <div class="main__content">
+                <h1>COVID-19</h1>
+                <h2>Oltás</h2>
+                <p>Regisztráljon a védőoltásra</p>
+                <button class="main__btn"><a href="/register.html"></a>Regisztrálj most</button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/pic1.svg" alt="pic" id="main__img">
+            </div>
+         </div>
+    </div>
+
+<!-- Services Section-->
+    <div class="services">
+        <h1>Tudj meg többet az oltásról</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2>Regisztráció</h2>
+                <p>Regisztrálj elsőként</p>
+                <button>Kezdjük</button>
+            </div>
+            <div class="services__card">
+                <h2>Még több infó</h2>
+                <p>Fő az elővigyázatosság</p>
+                <button>Kezdjük</button>
+            </div>
+        </div>
+    </div>
+<!-- Footer Section-->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                        <h2>Hasznos</h2>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiV9MCi_Kn0AhV2g_0HHdxZBtsQFnoECAUQAQ&url=https%3A%2F%2Fkoronavirus.gov.hu%2Fsites%2Fdefault%2Ffiles%2Fsites%2Fdefault%2Ffiles%2Fimce%2Foltopontok_az_oltasi_akcioheten_2021.november_22-28.xlsx&usg=AOvVaw3vJBnT6K0GQyctbZWcaoGQ">Oltópontok</a>
+                        <a href="https://koronavirus.gov.hu/cikkek/magyarorszagra-erkezett-vakcinak-tipusa-es-mennyisege-24">Oltás típusok</a>
+                        <a href="https://koronavirus.gov.hu/megelozes">Megelőzés</a>
+                        <a href="https://www.eeszt.gov.hu/hu/covid-oltas-idopontfoglalas">Időpont foglalás</a>
+                        <a href="https://regi.ugyfelkapu.magyarorszag.hu/">Ügyfélkapu</a>
+                        <a href="/">Adatkezelés</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Statisztikák</h2>
+                    <a href="https://www.worldometers.info/coronavirus/">Világszinten</a>
+                    <a href="https://koronavirus.gov.hu/#/">Magyarország</a>
+                    <a href="https://www.worldometers.info/coronavirus/country/germany/">Németország</a>
+                    <a href="https://www.worldometers.info/coronavirus/country/slovakia/">Szlovákia</a>
+                    <a href="https://www.worldometers.info/coronavirus/country/czech-republic/">Csehország</a>
+                    <a href="https://www.worldometers.info/coronavirus/country/austria/">Ausztria</a>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                        <h2>Hasznos</h2>
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiV9MCi_Kn0AhV2g_0HHdxZBtsQFnoECAUQAQ&url=https%3A%2F%2Fkoronavirus.gov.hu%2Fsites%2Fdefault%2Ffiles%2Fsites%2Fdefault%2Ffiles%2Fimce%2Foltopontok_az_oltasi_akcioheten_2021.november_22-28.xlsx&usg=AOvVaw3vJBnT6K0GQyctbZWcaoGQ">Oltópontok</a>
+                        <a href="https://koronavirus.gov.hu/cikkek/magyarorszagra-erkezett-vakcinak-tipusa-es-mennyisege-24">Oltás típusok</a>
+                        <a href="https://koronavirus.gov.hu/megelozes">Megelőzés</a>
+                        <a href="https://www.eeszt.gov.hu/hu/covid-oltas-idopontfoglalas">Időpont foglalás</a>
+                        <a href="https://regi.ugyfelkapu.magyarorszag.hu/">Ügyfélkapu</a>
+                        <a href="/">Adatkezelés</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Statisztikák</h2>
+                    <a href="https://www.worldometers.info/coronavirus/">Világszinten</a>
+                    <a href="https://koronavirus.gov.hu/#/">Magyarország</a>
+                    <a href="https://www.worldometers.info/coronavirus/country/germany/">Németország</a>
+                    <a href="https://www.worldometers.info/coronavirus/country/slovakia/">Szlovákia</a>
+                    <a href="https://www.worldometers.info/coronavirus/country/czech-republic/">Csehország</a>
+                    <a href="https://www.worldometers.info/coronavirus/country/austria/">Ausztria</a>
+            </div>
+            </div>
+            </div>
+        </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo"><i class="fas fa-viruses"></i>COVID-19</a>
+                    </div>
+                        <p class="website__rights">COVID-19 2021 All rights reserved</p>
+                        <div class="social__icons">
+                                <a href="/" class="social__icon--link" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="/" class="social__icon--link" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="/" class="social__icon--link" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="/" class="social__icon--link" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="/" class="social__icon--link" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
